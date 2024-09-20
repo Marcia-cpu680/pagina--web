@@ -1,0 +1,67 @@
+.estilo-tabla {
+    border: 2px solid black;
+    width: 100%;
+    margin: 1px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.contenedor-imagen img {
+    max-width: 100px;
+    max-height: 100px;
+    width: 90px;
+}
+
+.inicio {
+    border: 2px solid black;
+    width: 100% ;
+    text-align: center;
+}
+
+.matricula {
+    margin: 20px 0;
+    margin-left: 80px;
+    margin-right: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-style: inherit;
+
+}
+
+.imagen-matricula {
+    text-align: center;
+    margin: 50px;
+}
+
+.contenedor-imagenes {
+   display: flex;
+   justify-content: space-around;
+   align-items: space-around;
+   align-items: center;
+   margin-top: 50px 0;
+   text-align:center;
+}
+
+.imagen-texto p {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.imagen-texto a {
+    display: block;
+    margin-top: 5px;
+    font-size: 15px;
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.contenedor-imagenes img {
+    width: 300px;
+    height: auto;
+}
